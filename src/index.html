@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/head.html',{
+"title":"Главная"
+})
+<body>
+@@include('html/header.html',{})
+<main class="main">
+    <section class="heating-systems">
+        <div class="heating-systems__img-wrapper">
+            <img src="@img/bg-main-girl.png" alt="main-banner">
+        </div>
+        <div class="heating-systems__container _container">
+            <div class="heating-systems__wrapper">
+                <div class="heating-systems__title">
+                    <h1>Монтаж систем отопления в СПб и ЛО </br> <span>от 3 500 руб./м2.</span></h1>
+
+                </div>
+                <div class="heating-systems__desc">Точно в срок с гарантией на работы. Посчитаем смету за 1 час!</div>
+                <div class="heating-systems__btn-wrapper">
+                    <button class="btn-orange">Расчёт стоимости</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="heating-systems__additions">
+            <div class="heating-systems__system-add">
+                <span><b>Системы отопления</b></span>
+                <span>«под ключ» в СПб и ЛО</span>
+            </div>
+            <div class="heating-systems__location">
+                <ul>
+                    <li class="street"><span>Санкт-Петербург, <br> Трамвайный пр., д.32, офис 82.1</span>
+                    </li>
+                    <li>
+                        <a href="https://yandex.by/maps/2/saint-petersburg/house/tramvayny_prospekt_32/Z0kYdA9jQEQCQFtjfXR0dXtkbQ==/?indoorLevel=1&amp;ll=30.283915%2C59.854779&amp;z=17.15"
+                           target="_blank">Яндекс Карты</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+    </section>
+    <section class="work-quality">
+        <div class="work-quality__container _container">
+            <div class="work-quality__title">
+                <h3>Мы уверены в качестве своей работы на все 100% </br>
+                    <span>и предоставляем до 10 лет гарантии!</span></h3>
+            </div>
+            <div class="work-quality__card-wrapper">
+                <div class="work-quality__card">
+                    <div class="overlay"></div>
+                    <div class="work-quality__content">
+                        <span style="background-image: url('/img/vectors/card-icons/househeating.svg')"></span>
+                        <h4>Минимизация затрат на обогрев дома</h4>
+                    </div>
+
+                </div>
+                <div class="work-quality__card">
+                    <div class="overlay"></div>
+                    <div class="work-quality__content">
+                        <span style="background-image: url('/img/vectors/card-icons/equipment.svg')"></span>
+                        <h4>Отсутствие расходов на лишнее оборудование</h4>
+                    </div>
+                </div>
+                <div class="work-quality__card">
+                    <div class="work-quality__content">
+                        <span style="background-image: url('/img/vectors/card-icons/maintenance.svg')"></span>
+                        <h4>Простое управление и обслуживание системы отопления</h4>
+                    </div>
+
+                </div>
+                <div class="work-quality__card">
+                    <div class="work-quality__content">
+                        <span style="background-image: url('/img/vectors/card-icons/reliability.svg')"></span>
+                        <h4>Надежная эксплуатация без поломок и протечек</h4>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="calculation">
+        <div class="calculation__container _container">
+            <div class="calculation__wrapper">
+                <form action="#" method="#" class="calculation__form">
+                    <div class="calculation__title">
+                        <h3>Получить предварительный </br> <span>расчёт стоимости</span></h3>
+                    </div>
+                    <div class="calculation__text">
+                        Мы перезвоним вам для уточнения параметров, которые необходимы для сметы.
+                    </div>
+                    <div class="calculation__main-field__wrapper">
+                        <div class="calculation__field-title">
+                            <label for="field-name">Имя</label>
+                            <input type="text" id="field-name">
+                        </div>
+                        <div class="calculation__field-number">
+                            <label for="field-number">Телефон</label>
+                            <input type="tel" id="field-number">
+                        </div>
+                    </div>
+
+
+                    <div class="calculation__field-politic">
+                        <label class="checkbox">
+                            <input type="checkbox" name="undefined">
+                            <span class="checkbox__elem"></span>
+                        </label>
+                        <div>Даю согласие на обработку и хранение моих <a href="#">персональных данных</a></div>
+                    </div>
+                    <div class="calculation__btn-wrapper">
+                        <button class="btn-orange">Получить расчёт</button>
+                    </div>
+                </form>
+                <div class="calculation__img-wrapper">
+                    <img src="@img/person.png" alt="person">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services-cost">
+        <div class="services-cost__container _container">
+            <div class="services-cost__wrapper">
+                <div class="services-cost__title">
+                    <h3><span>Стоимость </span>наших услуг</h3>
+                </div>
+                <div class="splide" data-slider="services-cost">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="services-cost__content">
+                                    <div class="services-cost__content-title">
+                                        <h4>Эконом</h4>
+                                    </div>
+                                    <div class="services-cost__content-img-wrapper">
+                                        <img src="@img/cost-slider/cost-slide01.png" alt="slide01">
+                                    </div>
+                                    <div class="services-cost__content-desc">
+                                        <span>Работа <b>от 98 000 руб.</b></span>
+                                        <span>Материалы <b>от 394 000 руб.</b></span>
+                                        <span>«Под ключ»</span>
+                                        <h4><b>от 492 000 руб.</b></h4>
+                                    </div>
+                                    <ul class="services-cost__content-list">
+                                        <li>система радиаторного отопления</li>
+                                        <li>монтаж трасс холодного и горячего водоснабжения</li>
+                                        <li>трубы из пропилена открытого монтажа</li>
+                                        <li>внутридомовая канализация</li>
+                                        <a href="#">Подробнее</a>
+                                    </ul>
+                                    <div class="services-cost__content-btn-wrapper">
+                                        <button class="btn-orange">Получить смету за 1 час</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="services-cost__content">
+                                    <div class="services-cost__content-title">
+                                        <h4>Комфорт</h4>
+                                    </div>
+                                    <div class="services-cost__content-img-wrapper">
+                                        <img src="@img/cost-slider/cost-slide02.png" alt="slide02">
+                                    </div>
+                                    <div class="services-cost__content-desc">
+                                        <span>Работа <b>от 210 000 руб.</b></span>
+                                        <span>Материалы <b>от 510 000 руб.</b></span>
+                                        <span>«Под ключ»</span>
+                                        <h4><b>от 720 000 руб.</b></h4>
+                                    </div>
+                                    <ul class="services-cost__content-list">
+                                        <li>труба из сшитого полиэтилена РЕХ-А (скрытого монтажа)</li>
+                                        <li>коллекторная разводка ХВС/ГВС и отопления</li>
+                                        <li>рециркуляция ГВС</li>
+                                        <li>тёплый пол на первом этаже</li>
+                                        <li>радиаторное отопление на втором этаже</li>
+                                        <a href="#">Подробнее</a>
+                                    </ul>
+                                    <div class="services-cost__content-btn-wrapper">
+                                        <button class="btn-orange">Получить смету за 1 час</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <div class="services-cost__content">
+                                    <div class="services-cost__content-title">
+                                        <h4>Премиум</h4>
+                                    </div>
+                                    <div class="services-cost__content-img-wrapper">
+                                        <img src="@img/cost-slider/cost-slide03.png" alt="slide03">
+                                    </div>
+                                    <div class="services-cost__content-desc">
+                                        <span>Работа <b>от 399 000 руб.</b></span>
+                                        <span>Материалы <b>от 799 000 руб.</b></span>
+                                        <span>«Под ключ»</span>
+                                        <h4><b>от 1 198 000 руб.</b></h4>
+                                    </div>
+                                    <ul class="services-cost__content-list">
+                                        <li>труба из сшитого полиэтилена РЕХ-А (скрытого монтажа)</li>
+                                        <li>коллекторная разводка ХВС/ГВС и отопления</li>
+                                        <li>автоматика для дистанционного управления котельной</li>
+                                        <li>рециркуляция ГВС до каждой точки водоразбора</li>
+                                        <a href="#">Подробнее</a>
+                                    </ul>
+                                    <div class="services-cost__content-btn-wrapper">
+                                        <button class="btn-orange">Получить смету за 1 час</button>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="our-priorities">
+        <div class="our-priorities__wrapper">
+            <div class="our-priorities__container _container">
+                <div class="our-priorities__content">
+                    <div class="our-priorities__text-content">
+                        <div class="our-priorities__title">
+                            <h3>Наши </br> <span>приоритеты</span></h3>
+                        </div>
+                        <div class="our-priorities__text">
+                            Мы ставим перед собой цель – создание качественной, эстетичной и эффективной системы
+                            отопления, чтобы обеспечить тепло и комфорт в вашем доме.
+                        </div>
+                    </div>
+                    <div class="our-priorities__list-content">
+                        <h4>Гарантируем вам:</h4>
+                        <ul>
+                            <li>фиксированную стоимость работ без скрытых доплат;</li>
+                            <li>оперативное выполнение работ любой сложности;</li>
+                            <li>закупку оборудования по дилерским ценам.</li>
+                        </ul>
+                        <span><b>Всегда находимся на связи с клиентом и готовы помочь даже после окончания гарантийного срока!</b></span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="something-to-tell">
+        <div class="something-to-tell__container _container">
+            <div class="something-to-tell__wrapper">
+                <div class="something-to-tell__title">
+                    <h3>Нам есть, что рассказать </br> и <span>показать вам!</span></h3>
+                </div>
+                <div class="something-to-tell__desc">Важные цифры о компании.</div>
+                <div class="something-to-tell__content">
+
+                    <div class="something-to-tell__card">
+                        <div class="something-to-tell__card-title">
+                            <span><b>18</b> лет работы</span>
+                        </div>
+                        <div class="something-to-tell__card-text">
+                            <span>в сфере проектирования и монтажа систем отопления</span>
+                        </div>
+                    </div>
+                    <div class="something-to-tell__card">
+                        <div class="something-to-tell__card-title">
+                            <span><b>>600</b> проектов</span>
+                        </div>
+                        <div class="something-to-tell__card-text">
+                            <span>которые мы успешно реализовали</span>
+                        </div>
+                    </div>
+                    <div class="something-to-tell__card">
+                        <div class="something-to-tell__card-title">
+                            <span><b>7-25</b> лет опыта</span>
+                        </div>
+                        <div class="something-to-tell__card-text">
+                            <span>у всех наших инженеров и мастеров</span>
+                        </div>
+                    </div>
+                    <div class="something-to-tell__card">
+                        <div class="something-to-tell__card-title">
+                            <span><b>5</b> лет гарантии</span>
+                        </div>
+                        <div class="something-to-tell__card-text">
+                            <span>на готовую систему обогрева дома</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="how-to-pay">
+        <div class="how-to-pay__container _container">
+            <div class="how-to-pay__wrapper">
+                <div class="how-to-pay__title">
+                    <h3>Как проходит <span>оплата</span></h3>
+                </div>
+                <div class="how-to-pay__desc">
+                    Оплата выполняется в 3 этапа:
+                </div>
+                <div class="how-to-pay__content">
+                    <div class="how-to-pay__card">
+                        <div class="how-to-pay__card-number">1</div>
+                        <div class="how-to-pay__card-text">
+                            <span><b>100% стоимости оборудования и материалов </b> после заключения договора</span>
+                        </div>
+                    </div>
+                    <div class="how-to-pay__card">
+                        <div class="how-to-pay__card-number">2</div>
+                        <div class="how-to-pay__card-text">
+                            <span><b>50% стоимости работ </b> во второй день выхода на объект</span>
+                        </div>
+                    </div>
+                    <div class="how-to-pay__card">
+                        <div class="how-to-pay__card-number">3</div>
+                        <div class="how-to-pay__card-text">
+                            <span><b>Оставшиеся 50% </b> после подписания акта выполненных работ</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="how-to-pay__btn-wrapper">
+                    <button class="btn-orange">Получить предварительный расчет</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+@@include('html/footer.html',{})
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js?_v=20230516090809"></script>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=<ваш API-ключ>" type="text/javascript"></script>
+<script src="js/app.min.js"></script>
+</body>
+</html>
